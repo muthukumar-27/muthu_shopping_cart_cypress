@@ -13,3 +13,8 @@
 3. Adding 2 items to cart and verifying the name and price of the item added.
 4. Transitioning to cart page
 5. Verifying the total amount in the cart page.
+
+**Problems faced while writing the test case**
+
+1. When the cart is empty, clicking on add to cart is making the api call but the items are not added to the cart.
+The api call succeeds but returns the cart total as empty. Have added a fallback handling to click again if the add to cart option is not success.
