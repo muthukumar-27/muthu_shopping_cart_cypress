@@ -1,0 +1,14 @@
+{
+  "name": "cypress_cart_automation",
+  "version": "1.0.0",
+  "description": "this is cypress cat automation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Muthukumar S",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^8.7.0"
+  }
+}
