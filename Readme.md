@@ -2,10 +2,11 @@
 
 1. Run `npm install`
 2. Run `node_modules/.bin/cypress open`
-3. Run the shopping_cart.js file displayed in the cypress application.
+3. Run the shopping-test.js file displayed in the cypress application.
 
-* Test cases are available in /cypress/integration/shopping_cart.js
-* Common code is available in /cypress/integration/support/utils/common.js
+* Page classes are available in /cypress/integration/Shopping_cart_tests/page-objects
+* Test class is available in /cypress/integration/Shopping_cart_tests/shopping-test.js
+* Common code is available in /cypress/support/utils/common.js
 
 **Test cases added handled in this code base**
 1. Verifying if the cart is empty
